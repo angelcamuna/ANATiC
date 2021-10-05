@@ -5,35 +5,67 @@
 
 
 
-#arriba {
-display: grid;
-grid-template-columns: 1fr;
-grid-template-rows: 7vh;
-background-color: #FF0049;
 
-}
+
+
 
 #contenedorlogo {
-display:grid;
-grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr ;
-grid-template-rows: 10vh;
-background-color: #00B2FF;
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 5vh 10vh;
+  background-color: #FFFF;
+  position: fixed;
+}
+#contenedorlogo a {
+  text-decoration: none;
+}
+#contenedorlogo .huecorosa{
+  grid-column: 1/14;
+  grid-row: 1/2;
+  background-color: #FF0049;
 
 }
-
+#contenedorlogo p{
+  font-family: "Brown Regular",Sans-Serif;
+  color: #FF0049;
+  font-size: 0.8vw;
+  font-weight: bold;
+}
+#contenedorlogo p:hover{
+  color: black;
+}
 #contenedorlogo .test{
-grid-column: 2/3;
-grid-row: 1/2;
-margin: auto;
+  grid-column: 3/5;
+  grid-row: 2/3;
+  margin: auto;
 }
 #contenedorlogo .test img{
-max-width: 60%;
+  max-width: 80%;
 
+}
+
+
+#contenedorlogo .FAQ{
+  grid-column: 8/9;
+  grid-row: 2/3;
+  margin: auto;
 }
 
 #contenedorlogo .trayectoria{
-grid-column: 5/6;
-grid-row: 1/2;
-margin: auto;
+  grid-column: 9/10;
+  grid-row: 2/3;
+  margin: auto;
+}
+
+#contenedorlogo .team{
+  grid-column: 10/11;
+  grid-row: 2/3;
+  margin: auto;
+}
+#contenedorcontenido {
+  display:grid;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1000vh;
+  background-color: #FFFF;
 
 }
