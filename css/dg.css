@@ -93,3 +93,32 @@
   padding-top: 25vh;
 
 }
+#contenedorcontenido .textoequipo {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  padding-top: 30vh;
+  padding-left: 22vh;
+}
+#contenedorcontenido .textoequipo p {
+  font-family: "Brown Regular",Sans-Serif;
+  color: #000 ;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+#contenedorcontenido .imagen1 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#contenedorcontenido .imagen1 img {
+  max-width: 78%;
+  height: 18%;
+  padding-top: 35vh;
+  position: absolute;
+}
+#contenedorcontenido .imagen111111 img:hover{
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  max-width: 80%;
+  height: 20%;
+}
