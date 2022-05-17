@@ -1,12 +1,7 @@
 * {
-<<<<<<< HEAD
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-=======
-  margin: 0;
-  padding: 0;
->>>>>>> 7bd83384632e35f91da92b3a5ea06fb6d1acbeca
 }
 
 #contenedorlogo {
@@ -125,16 +120,8 @@
   position: absolute;
 }
 
-<<<<<<< HEAD
 
 
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
->>>>>>> 7bd83384632e35f91da92b3a5ea06fb6d1acbeca
 
 body {
   font-family: 'open sans';
@@ -248,7 +235,6 @@ main .sobre-nosotros {
   flex-wrap: wrap;
 }
 
-<<<<<<< HEAD
 .imagen-port{
     width: 24%;
     margin-bottom: 10px;
@@ -256,15 +242,6 @@ main .sobre-nosotros {
     position:;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-=======
-.imagen-port {
-  width: 24%;
-  margin-bottom: 10px;
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
->>>>>>> 7bd83384632e35f91da92b3a5ea06fb6d1acbeca
 }
 
 .imagen-port>img {
@@ -274,23 +251,7 @@ main .sobre-nosotros {
   display: block;
 }
 
-<<<<<<< HEAD
 
-=======
-.hover-galeria {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  transform: scale(0);
-  background: hsla(273, 91%, 27%, 0.7);
-  transition: transform .5s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
->>>>>>> 7bd83384632e35f91da92b3a5ea06fb6d1acbeca
 
 .hover-galeria img {
   width: 50px;
