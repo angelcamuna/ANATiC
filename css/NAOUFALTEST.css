@@ -136,6 +136,9 @@ body {
 
 
 
+.contenido-textos {
+  font-family: ;
+}
 
 
 
@@ -457,6 +460,8 @@ main .sobre-nosotros{
         width: 90px;
         height: 90px;
     }
-
+.titulo{
+  font-size: 400px;
+}
 
 }
