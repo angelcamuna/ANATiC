@@ -2,13 +2,6 @@
   margin:0;
   padding:0;
 }
-
-
-
-
-
-
-
 #contenedorlogo {
   display:grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -43,8 +36,6 @@
   max-width: 80%;
 
 }
-
-
 #contenedorlogo .FAQ{
   grid-column: 8/9;
   grid-row: 2/3;
