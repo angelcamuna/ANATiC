@@ -62,3 +62,12 @@
 #container .title {
   align-self: center;
 }
+#container {
+  align-items: center;
+}
+
+
+
+#title {
+  align-items: center;
+}
