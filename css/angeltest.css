@@ -15,10 +15,14 @@
   background-color: #f7f7f7;
   place-items: center;
 }
-
+.texto p {
+font-size: 1000px;
+color: black
+}
 .window {
   height: 95%;
-  width: 60%;
+  width: 40%;
+  margin-left: 35%;
   overflow: hidden;
   position: relative;
   border-radius: 10px;
