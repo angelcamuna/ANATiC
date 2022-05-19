@@ -17,7 +17,7 @@
 }
 
 .window {
-  height: 80%;
+  height: 95%;
   width: 60%;
   overflow: hidden;
   position: relative;
@@ -26,8 +26,8 @@
 }
 
 .slider {
-  height: 100%;
-  width: 400%;
+  height: 450px;
+  width: 4850px;
   display: flex;
 }
 
