@@ -10,7 +10,7 @@
   grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 5vh 10vh;
   background-color: #FFFF;
-  position: fixed;
+  position: absolute ;
 }
 
 #contenedorlogo a {
