@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
 
 #contenedorlogo {
   display: grid;
@@ -101,12 +102,7 @@
   padding-left: 22vh;
 }
 
-#contenedorcontenido .textoequipo p {
-  font-family: "Brown Regular", Sans-Serif;
-  color: #000;
-  font-size: 1.2vw;
-  font-weight: bold;
-}
+
 
 #contenedorcontenido .imagen1 {
   grid-column: 2/3;
@@ -119,10 +115,6 @@
   padding-top: 35vh;
   position: absolute;
 }
-
-
-
-
 body {
   font-family: 'open sans';
 }
@@ -453,3 +445,7 @@ main .sobre-nosotros {
   font-size: 10x;
     text-align: justify;
 }
+
+#contenedol .texto {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
