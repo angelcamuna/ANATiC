@@ -436,6 +436,9 @@ main .sobre-nosotros {
 .contenido-textos {
   font-family: Montserrat;
   font-size: 10x;
+  text-align: justify;
+  text-justify: inter-word;
+}
 }
 .titulo {
   font-family: Montserrat;
@@ -444,9 +447,28 @@ main .sobre-nosotros {
 .contenido-texto-card {
   font-family: Montserrat;
   font-size: 10x;
-    text-align: justify;
+  text-align: justify;
 }
 
 #contenedol .texto {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
+}
+  .section::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: #8070D4;
+      border: 6px solid rgba(0,0,0,0.2);
+  }
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #836EF8;
+    border-radius: 20px;
+    border: 3px solid #836EF8;
+  }

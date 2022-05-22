@@ -39,14 +39,15 @@ text-align: center;
   margin-right: 10%;
   overflow: hidden;
   position: relative;
-  border-radius: 10px;
-  box-shadow: 0 0 20px 10px #0000002f, 0 0 10px 5px #00000017;
+  border-radius: 15px;
+  box-shadow: 7px 15px #836EF8;
 }
 
 .slider {
   height: 100%;
   width: 500%;
   display: flex;
+  border-radius:
 }
 
 .image {
@@ -56,9 +57,7 @@ text-align: center;
   animation: slide 20s infinite ease-in-out;
 }
 
-.slider:hover .image {
-  animation-play-state: paused;
-}
+
 
 @keyframes slide {
   0% {
