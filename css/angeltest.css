@@ -6,19 +6,37 @@
   box-sizing: border-box;
 }
 
+#contenedol {
+  display:grid;
+  grid-template-columns:1fr 1fr ;
+  grid-template-rows: 70vh;
+  background-color: #f7f7f7;
 
-.container {
+}
+
+#contenedol .container {
   position: relative;
-  height: 120%;
+  height: 100%;
   width: 100%;
+  grid-column: 2/3;
   display: grid;
   background-color: #f7f7f7;
   place-items: center;
 }
-
+#contenedol .texto {
+display: grid;
+grid-column: 1/2;
+margin: 5%;
+}
+#contenedol .texto p {
+font-size: 1.5vw;
+color: black
+text-align: center;
+}
 .window {
-  height: 95%;
-  width: 60%;
+  height: 80%;
+  width: 100%;
+  margin-right: 10%;
   overflow: hidden;
   position: relative;
   border-radius: 10px;
@@ -26,7 +44,7 @@
 }
 
 .slider {
-  height: 450px;
+  height: 100%;
   width: 500%;
   display: flex;
 }
