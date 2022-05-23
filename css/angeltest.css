@@ -27,6 +27,8 @@
 display: grid;
 grid-column: 1/2;
 margin: 5%;
+margin-top: 10%;
+margin-bottom: 10%;
 }
 #contenedol .texto p {
 font-size: 1.5vw;
