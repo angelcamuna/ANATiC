@@ -15,7 +15,11 @@
 #contenedorlogo a {
   text-decoration: none;
 }
-
+#contenedorlogo .servicios {
+  grid-column: 11/12;
+  grid-row: 2/3;
+  margin: auto;
+}
 #contenedorlogo .huecorosa {
   grid-column: 1/14;
   grid-row: 1/2;

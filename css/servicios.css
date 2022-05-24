@@ -60,7 +60,11 @@
   grid-row: 2/3;
   margin: auto;
 }
-
+#contenedorlogo .servicios {
+  grid-column: 11/12;
+  grid-row: 2/3;
+  margin: auto;
+}
 #contenedorcontenido {
   display: grid;
   grid-template-columns: 1fr 1fr;
